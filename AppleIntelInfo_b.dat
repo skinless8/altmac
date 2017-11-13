@@ -1,0 +1,72 @@
+AppleIntelInfo.kext v1.2 Copyright © 2012-2015 Pike R. Alpha. All rights reserved
+
+Settings:
+------------------------------------
+logMSRs............................: 1
+logIGPU............................: 0
+logIntelRegs.......................: 1
+logCStates.........................: 1
+logIPGStyle........................: 1
+InitialTSC.........................: 0x33dbb229310
+MWAIT C-States.....................: 270624
+
+Model Specific Regiters
+------------------------------------
+MSR_CORE_THREAD_COUNT......(0x35)  : 0x40008
+MSR_PLATFORM_INFO..........(0xCE)  : 0x80838F3012800
+MSR_PMG_CST_CONFIG_CONTROL.(0xE2)  : 0x1E000402
+MSR_PMG_IO_CAPTURE_BASE....(0xE4)  : 0x1814
+IA32_MPERF.................(0xE7)  : 0x60CCD1AB4D
+IA32_APERF.................(0xE8)  : 0x5917D71D40
+MSR_FLEX_RATIO.............(0x194) : 0xF0000
+MSR_IA32_PERF_STATUS.......(0x198) : 0x21CF00002800
+MSR_IA32_PERF_CONTROL......(0x199) : 0x2C00
+IA32_CLOCK_MODULATION......(0x19A) : 0x0
+IA32_THERM_STATUS..........(0x19C) : 0x883B0000
+IA32_MISC_ENABLES..........(0x1A0) : 0x850089
+MSR_MISC_PWR_MGMT..........(0x1AA) : 0x1
+MSR_TURBO_RATIO_LIMIT......(0x1AD) : 0x2C2C2C2C
+IA32_ENERGY_PERF_BIAS......(0x1B0) : 0x5
+MSR_POWER_CTL..............(0x1FC) : 0x4005F
+MSR_RAPL_POWER_UNIT........(0x606) : 0xA0E03
+MSR_PKG_POWER_LIMIT........(0x610) : 0xFFD00000EA82
+MSR_PKG_ENERGY_STATUS......(0x611) : 0xD82A269
+MSR_PKG_POWER_INFO.........(0x614) : 0x2C0
+MSR_PP0_CURRENT_CONFIG.....(0x601) : 0x1F40
+MSR_PP0_POWER_LIMIT........(0x638) : 0xFFD0
+MSR_PP0_ENERGY_STATUS......(0x639) : 0x65CE0F2
+MSR_PP0_POLICY.............(0x63a) : 0x0
+MSR_CONFIG_TDP_NOMINAL.....(0x648) : 0x28
+MSR_CONFIG_TDP_LEVEL1......(0x649) : 0x0
+MSR_CONFIG_TDP_LEVEL2......(0x64a) : 0x0
+MSR_CONFIG_TDP_CONTROL.....(0x64b) : 0x80000000
+MSR_TURBO_ACTIVATION_RATIO.(0x64c) : 0x0
+MSR_PKGC3_IRTL.............(0x60a) : 0x8842
+MSR_PKGC6_IRTL.............(0x60b) : 0x8873
+MSR_PKGC7_IRTL.............(0x60c) : 0x8891
+MSR_PKG_C2_RESIDENCY.......(0x60d) : 0x24C1EBA8B70
+MSR_PKG_C3_RESIDENCY.......(0x3f8) : 0x0
+MSR_PKG_C6_RESIDENCY.......(0x3f9) : 0x0
+MSR_PKG_C7_RESIDENCY.......(0x3fa) : 0x0
+IA32_TSC_DEADLINE..........(0x6E0) : 0x33DBEEA582A
+
+CPU Ratio Info:
+------------------------------------
+CPU Low Frequency Mode.............: 800 MHz
+CPU Maximum non-Turbo Frequency....: 4000 MHz
+CPU Maximum Turbo Frequency........: 4400 MHz
+CPU P-States [ 37 40 (44) ]
+CPU C3-Cores [ 0 2 4 6 ]
+CPU C6-Cores [ 0 1 4 5 6 ]
+CPU C7-Cores [ 0 1 4 5 6 7 ]
+CPU P-States [ 37 39 40 (42) 44 ]
+CPU C3-Cores [ 0 1 2 4 6 ]
+CPU C6-Cores [ 0 1 2 3 4 5 6 ]
+CPU C7-Cores [ 0 1 2 4 5 6 7 ]
+CPU P-States [ 37 38 39 (40) 42 44 ]
+CPU C3-Cores [ 0 1 2 3 4 5 6 ]
+CPU C7-Cores [ 0 1 2 3 4 5 6 7 ]
+CPU C6-Cores [ 0 1 2 3 4 5 6 7 ]
+CPU C3-Cores [ 0 1 2 3 4 5 6 7 ]
+CPU P-States [ (8) 37 38 39 40 42 44 ]
+CPU P-States [ (8) 35 37 38 39 40 42 44 ]
